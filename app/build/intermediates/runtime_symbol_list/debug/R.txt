@@ -252,6 +252,10 @@ int attr circularflow_defaultAngle 0x7f0300ba
 int attr circularflow_defaultRadius 0x7f0300bb
 int attr circularflow_radiusInDP 0x7f0300bc
 int attr circularflow_viewCenter 0x7f0300bd
+int attr civ_border_color 0x7f030449
+int attr civ_border_overlay 0x7f03044a
+int attr civ_border_width 0x7f03044b
+int attr civ_circle_background_color 0x7f03044c
 int attr clearsTag 0x7f0300be
 int attr clickAction 0x7f0300bf
 int attr clockFaceBackgroundColor 0x7f0300c0
@@ -4712,6 +4716,11 @@ int styleable ChipGroup_chipSpacingVertical 3
 int styleable ChipGroup_selectionRequired 4
 int styleable ChipGroup_singleLine 5
 int styleable ChipGroup_singleSelection 6
+int[] styleable CircleImageView { 0x7f030449, 0x7f03044a, 0x7f03044b, 0x7f03044c }
+int styleable CircleImageView_civ_border_color 0
+int styleable CircleImageView_civ_border_overlay 1
+int styleable CircleImageView_civ_border_width 2
+int styleable CircleImageView_civ_circle_background_color 3
 int[] styleable CircularProgressIndicator { 0x7f0301f2, 0x7f0301f4, 0x7f0301f5 }
 int styleable CircularProgressIndicator_indicatorDirectionCircular 0
 int styleable CircularProgressIndicator_indicatorInset 1
