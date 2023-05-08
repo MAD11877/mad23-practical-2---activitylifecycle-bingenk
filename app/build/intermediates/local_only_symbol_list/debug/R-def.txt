@@ -18,6 +18,10 @@ layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string content_des
+string follow
+string lorem_ipsum
+string message
 style Theme.MADPractical
 xml backup_rules
 xml data_extraction_rules
