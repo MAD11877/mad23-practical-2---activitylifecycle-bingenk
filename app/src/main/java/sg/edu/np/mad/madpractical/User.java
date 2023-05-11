@@ -5,6 +5,10 @@ public class User {
     private String description;
     private int id;
     private boolean followed;
+
+    public User() {
+
+    }
     public User(String user,String description, int id,boolean followed){
         this.user=user;
         this.description=description;
