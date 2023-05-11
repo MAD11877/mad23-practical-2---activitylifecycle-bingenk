@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MADPractical</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor </string>
+    <string name="follow">Follow</string>
+    <string name="message">Message</string>
+    <string name="content_des">Android Icon</string>
+</resources>
