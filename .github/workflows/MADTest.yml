@@ -40,7 +40,7 @@ jobs:
         run: chmod +x ./gradlew
   
       - name: Run Android Tests
-        run: ./gradlew test
+        run: ./gradlew test -Dorg.gradle.java.home=/usr/lib/jvm/temurin-17-jdk-amd64
         
       - name: Build Project
-        run: ./gradlew assemble
+        run: ./gradlew assemble -Dorg.gradle.java.home=/usr/lib/jvm/temurin-17-jdk-amd64
